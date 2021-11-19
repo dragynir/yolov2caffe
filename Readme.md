@@ -45,7 +45,6 @@ cd /opt/caffe/src/caffe/proto
 
 message LayerParameter {
 
-    # add this to layer parameters
     optional UpsampleParameter upsample_param = 149; //added by chen for Yolov3, make sure this id 149 not the same as before.
     optional MishParameter mish_param = 150; //added by chen for yolov4,make sure this id 150 not the same as before.
 }

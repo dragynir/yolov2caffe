@@ -440,7 +440,6 @@ message LayerParameter {
   optional TileParameter tile_param = 138;
   optional WindowDataParameter window_data_param = 129;
 
-  # add this to layer parameters
   optional UpsampleParameter upsample_param = 149; //added by chen for Yolov3, make sure this id 149 not the same as before.
   optional MishParameter mish_param = 150; //added by chen for yolov4,make sure this id 150 not the same as before.
 
